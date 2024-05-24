@@ -8,7 +8,9 @@ A Dockerfile and shell script for creating a Fedora Toolbx  with the following p
 This project creates a Fedora toolbox with Python, Pip, PostgreSQL, and the VSCodium IDE  pre-installed. As such, it provides a script to get you up and running with a bare bones development environment for writing Python projects. 
 
 ## How do I run this? 
-To create the toolbox, open a terminal, `cd` into the root directory for this project and run `bash build.sh`. 
+To create the toolbox from the local bash script, open a terminal, `cd` into the root directory for this project and run `bash build.sh`. 
+
+To create the toolbox from its official repository, run `toolbox create -i docker.io/jacobarchambault/python_postgres_box python_postgres_box`
 
 Once the script has completed, you can run `toolbox enter python_box` to enter into the development environment. To open VSCodium, type `codium` into the terminal, or `codium \path\to\your\directory` to open VSCodium in a particular location.
 
