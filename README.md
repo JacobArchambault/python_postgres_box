@@ -1,4 +1,4 @@
-# Python_box
+# python_postgres_box
 A Dockerfile and shell script for creating a Fedora Toolbx  with the following pre-installed:
 1. Python
 2. Pip - the package installer for Python
